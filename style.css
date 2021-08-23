@@ -1,0 +1,177 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: green;
+    background-color: white;
+    border: 0;
+  
+  }
+
+header {
+    height: 150px;
+    max-width: 1280px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logo {
+    height: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+nav ul {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+  }
+
+nav li {
+    display: inline-flex;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+.banner {
+  box-sizing: border-box;
+  max-width: 1280px;
+  height:700px;
+  background-image: url("./img/silvestri-matteo-6-C0VRsagUw-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;               /* establish flex container */
+  align-items: center;
+  border-bottom: 1px grey solid;
+}
+
+h2, h3, h4 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  background-color: white;
+  opacity: .7;
+}
+
+h3, h4 {
+  font-family: 'Overpass', Cursive, sans-serif;
+}
+
+h2, .container h3 {
+  font-family: 'Permanent Marker', Cursive, sans-serif;
+  color: rgb(255, 187, 33);
+}
+
+a {
+  color: green;
+  text-decoration: none
+}
+
+a:hover {color:rgb(255, 187, 33)}
+
+.statement {
+  width: 100%;
+}
+
+.mission {
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 20px;
+  max-width: 1280px;
+  border-bottom: 1px grey solid;
+}
+
+.mission img, .solutions img {
+  margin: 40px auto 20px;
+  display: block;
+}
+
+.strike {
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+  text-decoration-thickness: 3px;
+}
+
+.mission h3 {
+  width: 70%;
+  text-align: justify;
+}
+
+.solutions {
+  max-width: 1280px;
+  margin-top: 40px;
+  border-bottom: 1px grey solid;
+}
+
+.solution {
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  border-bottom: 1px grey solid;
+}
+
+.forwarding {
+  padding-top: 0;
+}
+
+.image-container {
+  width: auto;
+}
+
+.image-container img {
+  width: 500px;
+  height: 450px;
+}
+
+.container {
+  padding: 30px 20px;
+  width: 50%;
+}
+
+.container h3, .container h4 {
+  text-align: justify;
+  color: rgb(50, 60, 50);
+}
+
+.container h3 {
+  color: green;
+}
+
+.container a {
+  color:rgb(255, 187, 33);
+  text-decoration: none;}
+
+  .container a:hover {
+    color: green;
+  }
+
+.contact {
+  max-width: 1280px;
+  height: 120px;
+  background-color:rgb(190, 200, 190);
+  color:white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 24px;
+  color: green;
+  background-color: transparent;
+}
+
+footer {
+  font-size: 12px;
+}
+
+  @media only screen and (max-width: 830px) {
+    .container {
+      width: 90%;
+    }
+  }

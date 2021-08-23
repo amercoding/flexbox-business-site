@@ -1,0 +1,1 @@
+Fully responsive original website design to promote a business idea

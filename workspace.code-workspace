@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../flexbox-business-site-starting"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../number-guesser-starting"
+		}
+	],
+	"settings": {}
+}
